@@ -1,0 +1,334 @@
+/* page properties */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  background-color: #202020;
+  font-family: "Poppins";
+  overflow: overlay;
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+  height: 100%;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 6px solid rgba(0, 0, 0, 0);
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  background-clip: padding-box;
+  background-color: #ffffff;
+}
+
+h {
+  font-size: 2.7vw;
+  color: #ffffff;
+
+}
+
+p {
+  font-size: 0.9vw;
+  color: #ffffff;
+}
+
+a:link {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+a:active {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+a:visited {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+/* navigation */
+.sidebar {
+  position: fixed;
+  height: 100%;
+  width: 3.2vw;
+  padding: 0.4vw;
+}
+
+.sidebar ul {
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  width: 4vw;
+  height: 100%;
+}
+
+.sidebar li {
+  position: relative;
+  list-style: none;
+}
+
+.sidebar i {
+  position: relative;
+  width: 3.2vw;
+  height: 3.2vw;
+  font-size: 0.9vw;
+  text-align: center;
+  line-height: 3.2vw;
+  color: #ffffff;
+}
+
+.sidebar li .tooltip {
+  position: absolute;
+  left: 3.2vw;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0.4vw 0.7vw;
+  border-radius: 0.1vw;
+  font-size: 0.7vw;
+  font-weight: 480;
+  background: #ffffff;
+  opacity: 0;
+}
+
+
+.sidebar li:hover .tooltip {
+  opacity: 1;
+  transition: all 0.2s;
+}
+
+/* fragment wrapper */
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* home fragment */
+.bg {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.greeting {
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 600;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.profile {
+  position: absolute;
+  width: 16%;
+  right: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+/* about fragment */
+.paragraph {
+  column-count: 2;
+}
+
+/* overview fragment */
+.progress {
+  position: relative;
+  width: 48%;
+  height: 0.1vw;
+  margin-top: 0.9vw;
+  margin-bottom: 3vw;
+}
+
+.progress-title {
+  position: relative;
+  float: left;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.9vw;
+}
+
+.progressbar {
+  position: relative;
+  width: 40%;
+  height: 0.1vw;
+  float: right;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #404040;
+}
+
+.progressbar-fg {
+  position: relative;
+  height: 0.2vw;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #8cc6ff;
+}
+
+.percentage {
+  position: relative;
+  float: right;
+  margin-right: 0.8vw;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.8vw;
+}
+
+.csharp {
+  width: 5%;
+}
+
+.htmlcss {
+  width: 75%;
+}
+
+.android {
+  width: 30%;
+}
+
+.uiux {
+  width: 80%;
+}
+
+.cadsketchup {
+  width: 60%;
+}
+
+.itmanagement {
+  width: 50%;
+}
+
+.googling {
+  width: 85%;
+}
+
+.maths {
+  width: 95%;
+}
+
+.english {
+  width: 95%;
+}
+
+.german {
+  width: 40%;
+}
+
+.spanish {
+  width: 30%;
+}
+
+/* projects group */
+.projects-title {
+  position: absolute;
+  left: 52%;
+}
+
+.projects {
+  position: absolute;
+  width: 48%;
+  height: 88%;
+  right: 0px;
+  top: 4.4vw;
+}
+
+.project {
+  position: relative;
+  width: 100%;
+  height: 32%;
+  margin-bottom: 2%;
+}
+
+.project-wrapper {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.project-image {
+  position: relative;
+  height: 88%;
+  float: right;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.project-title {
+  position: relative;
+  margin-right: 36%;
+  font-size: 1.4vw;
+}
+
+.project-paragraph {
+  position: relative;
+  margin-right: 36%;
+  font-size: 0.9vw;
+}
+
+/* contact fragment */
+.contact {
+  position: relative;
+  margin-left: 2vw;
+  margin-bottom: 0.9vw;
+}
+
+.bxs-envelope {
+  position: absolute;
+  left: -2vw;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.4vw;
+}
+
+.bxl-github {
+  position: absolute;
+  left: -2vw;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.4vw;
+}
+
+.bxl-discord-alt {
+  position: absolute;
+  left: -2vw;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.4vw;
+}
+
+.bxl-instagram-alt {
+  position: absolute;
+  left: -2vw;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.4vw;
+}
+
+.bxl-reddit {
+  position: absolute;
+  left: -2vw;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.4vw;
+}
