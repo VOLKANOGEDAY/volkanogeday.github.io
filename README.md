@@ -1,2 +1,2 @@
 # volkanogeday.github.io
-My personal website's resources, nothing more.
+My personal website's resources, nothing fancy.
