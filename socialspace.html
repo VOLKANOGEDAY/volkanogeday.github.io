@@ -5,12 +5,10 @@
   <!-- page properties -->
   <head>
 
-    <meta charset="UTF-8">
     <title>SocialSpace</title>
     <link rel="icon" href="images/socialspace.png" type="image/png">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   </head>
@@ -53,11 +51,11 @@
 
         <div class="slides">
 
-          <input type="radio" class="radio" id="radio-1">
-          <input type="radio" class="radio" id="radio-2">
-          <input type="radio" class="radio" id="radio-3">
-          <input type="radio" class="radio" id="radio-4">
-          <input type="radio" class="radio" id="radio-5">
+          <input type="radio" class="radio" name="radio" id="radio-1" checked>
+          <input type="radio" class="radio" name="radio" id="radio-2">
+          <input type="radio" class="radio" name="radio" id="radio-3">
+          <input type="radio" class="radio" name="radio" id="radio-4">
+          <input type="radio" class="radio" name="radio" id="radio-5">
           
           <div class="slide slide-1">
             <img src="images/discord.png">
@@ -81,14 +79,14 @@
 
         </div>
 
-        <div class="indicators">
-          <label for="radio-1" class="indicator"></label>
-          <label for="radio-2" class="indicator"></label>
-          <label for="radio-3" class="indicator"></label>
-          <label for="radio-4" class="indicator"></label>
-          <label for="radio-5" class="indicator"></label>
-        </div>
+      </div>
 
+      <div class="indicators">
+        <label for="radio-1" class="indicator"></label>
+        <label for="radio-2" class="indicator"></label>
+        <label for="radio-3" class="indicator"></label>
+        <label for="radio-4" class="indicator"></label>
+        <label for="radio-5" class="indicator"></label>
       </div>
 
     </div>
@@ -98,6 +96,7 @@
 
       <h>Changelogs</h>
 
+      <p>0.7.2: Added Home page, optimized ram usage, fixed camera and microphone access.</p>
       <p>0.6.4: Github and Gmail page added, reworked page controls, small ui changes, first github public beta.</p>
       <p>0.5.3: Migrated to WindowsAppSDK, fixed page overlapping and file picker, reworked icons and ui.</p>
       <p>0.1.1: Release for beta testers.</p>
@@ -126,8 +125,7 @@
 
     <!-- credit card -->
     <div class="credit-card">
-      <p>Designed and maintained by VOLKANOGEDAY</p>
-      <p>Thanks to <a href="https://safeboot.xyz">Safeboot</a> for his ideas and helping for the website</p>
+      <p class="credit">Designed and maintained by VOLKANOGEDAY</p>
     </div>
 
   </body>
