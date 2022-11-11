@@ -189,10 +189,14 @@ body {
 }
   
 .csharp {
-  width: 10%;
+  width: 20%;
 }
   
 .dotnet {
+  width: 30%;
+}
+
+.python {
   width: 10%;
 }
 
