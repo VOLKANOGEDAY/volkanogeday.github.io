@@ -1,5 +1,5 @@
-/* page defaults */
 @import url("https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
   margin: 0;
@@ -10,7 +10,7 @@
 html {
   overflow: overlay;
   scroll-behavior: smooth;
-  font-family: 'Courier New';
+  font-family: 'Montserrat';
 }
 
 ::-webkit-scrollbar {
@@ -28,14 +28,15 @@ html {
 }
 
 h {
-  font-size: 48px;
+  font-size: 44px;
+  line-height: 1.2;
   color: #ffffffcc;
-
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 400;
+  line-height: 1.8;
   color: #ffffffbb;
 }
   
